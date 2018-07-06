@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1486901523744160}
+  m_IsPrefabParent: 1
+--- !u!1 &1486901523744160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4235453225537942}
+  - component: {fileID: 114077992482108920}
+  - component: {fileID: 114660316247576570}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4235453225537942
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486901523744160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114077992482108920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486901523744160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a375dd54d499e443580e8a81a5ceffe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 50
+  width: 100
+  wallPrefab: {fileID: 1311565086322756, guid: 58f5ceef79b174ee6bdf9b51b0f2f7fe, type: 2}
+  floorPrefab: {fileID: 1761438226703232, guid: e574976d3a6124abb88914667126fc45,
+    type: 2}
+  enemyPrefab: {fileID: 1320961870840760, guid: 87e036ab77add4a699b84b0e1d4132f8,
+    type: 2}
+  exitPrefab: {fileID: 1293185929582258, guid: f8dbe42c8318c4c889cba3509b6701ea, type: 2}
+  level: {fileID: 0}
+--- !u!114 &114660316247576570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486901523744160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42bf1b78434b54c2e9ceef8a7103c13a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapName: map01
